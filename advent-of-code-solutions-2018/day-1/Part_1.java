@@ -11,11 +11,11 @@ public class Part_1 {
 		List<String> inputList = Files.readAllLines(Paths.get("C:\\advent-of-code\\input.txt"));
 		int sum = 0;
 		
-        for(String input : inputList) {
-        	sum = sum + Integer.parseInt(input.replaceAll("[\\D&&[^,-]]", ""));	        	
-        }
+      		for(String input : inputList) {
+        		sum = sum + Integer.parseInt(input.replaceAll("[\\D&&[^,-]]", ""));	        	
+        	}
         
-        System.out.println(sum);
+        	System.out.println(sum);
        
 	}
 
