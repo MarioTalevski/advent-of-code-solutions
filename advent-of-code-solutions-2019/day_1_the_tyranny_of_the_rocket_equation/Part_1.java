@@ -14,7 +14,7 @@ public class Part_1 {
 		
 		for(String line : inputList) {
 			fuel = Double.parseDouble(line);
-			fuel = (int)Math.floor(fuel / 3) - 2;
+			fuel = Math.floor(fuel / 3) - 2;
 			sum = sum + (int)fuel;
 		}
 		
